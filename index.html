@@ -23,6 +23,8 @@
               light: "#fffbf0",
               primary: "#a4bc46",
               secondary: "#FABE4C",
+              card: "#F1F1F1",
+              headings: "#363958",
             },
           },
         },
@@ -34,10 +36,10 @@
   </head>
   <body>
     <!-- Section: Header -->
-    <header class="bg-light">
+    <header class="bg-light mb-12">
       <!-- Banner -->
       <div
-        class="container px-8 mx-auto sm:flex items-center justify-evenly mt-10 mb-32"
+        class="container px-8 mx-auto sm:flex items-center justify-between mt-10"
       >
         <div class="space-y-3 text-center sm:text-left">
           <h1 class="text-6xl page-title">
@@ -65,9 +67,122 @@
           </button>
         </div>
         <div class="mt-12 sm:mt-0">
-          <img src="./images/model.png" alt="" />
+          <img class="block mx-auto" src="./images/model.png" alt="" />
         </div>
       </div>
     </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Section: Women Products -->
+      <section class="container px-8 mx-auto mb-12">
+        <h2 class="text-4xl mb-5">Women Jacket</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+          <!-- Jacket 1 -->
+          <div class="card p-4 rounded-lg drop-shadow-lg bg-white">
+            <div class="p-4 bg-card rounded-lg">
+              <img
+                class="w-3/4 block mx-auto"
+                src="./images/jacket-1.png"
+                alt=""
+              />
+            </div>
+            <h3 class="text-headings font-bold mt-4 text-2xl">
+              Yellow Coat Jacket
+            </h3>
+            <p class="my-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex justify-between items-center">
+              <span class="text-secondary text-3xl font-bold">$234</span>
+              <button
+                class="bg-primary py-3 px-5 text-white rounded-lg uppercase font-bold"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 inline"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <!-- Jacket 2 -->
+          <div class="card p-4 rounded-lg drop-shadow-lg bg-white">
+            <div class="p-4 bg-card rounded-lg">
+              <img
+                class="w-3/4 block mx-auto"
+                src="./images/jacket-2.png"
+                alt=""
+              />
+            </div>
+            <h3 class="text-headings font-bold mt-4 text-2xl">Ladies Jacket</h3>
+            <p class="my-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex justify-between items-center">
+              <span class="text-secondary text-3xl font-bold">$234</span>
+              <button
+                class="bg-primary py-3 px-5 text-white rounded-lg uppercase font-bold"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 inline"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <!-- Jacket 3 -->
+          <div class="card p-4 rounded-lg drop-shadow-lg bg-white">
+            <div class="p-4 bg-card rounded-lg">
+              <img
+                class="w-3/4 block mx-auto"
+                src="./images/jacket-3.png"
+                alt=""
+              />
+            </div>
+            <h3 class="text-headings font-bold mt-4 text-2xl">
+              Women Lather Jacket
+            </h3>
+            <p class="my-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex justify-between items-center">
+              <span class="text-secondary text-3xl font-bold">$234</span>
+              <button
+                class="bg-primary py-3 px-5 text-white rounded-lg uppercase font-bold"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 inline"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
