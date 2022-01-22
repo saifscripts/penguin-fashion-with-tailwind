@@ -1,0 +1,10 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive !important;
+  color: #363958;
+}

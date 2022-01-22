@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Penguin Fashion</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -21,14 +28,19 @@
         },
       };
     </script>
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- Section: Header -->
     <header class="bg-light">
+      <!-- Banner -->
       <div
-        class="container mx-auto sm:flex items-center justify-evenly mt-10 mb-32"
+        class="container px-8 mx-auto sm:flex items-center justify-evenly mt-10 mb-32"
       >
         <div class="space-y-3 text-center sm:text-left">
-          <h1 class="text-6xl font-bold uppercase">
+          <h1 class="text-6xl page-title">
             <span class="text-secondary">Be the Penguin</span><br />
             <span>Of Winter</span>
           </h1>
@@ -37,7 +49,7 @@
             distinctio.
           </p>
           <button
-            class="bg-primary py-4 px-6 text-white rounded-lg uppercase font-bold"
+            class="bg-primary py-3 px-5 text-white rounded-lg uppercase font-bold"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
